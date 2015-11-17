@@ -67,3 +67,6 @@
     color: black;
     font-family: "Poiret One";
 }
+img {
+     max-width: 100%;
+}
