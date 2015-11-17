@@ -45,3 +45,18 @@
     padding: 2px;
     height: 310px;
 }
+
+.blocks .container .row .col-md-4 h1 {
+    font-family: "Poiret One";
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.blocks .container .row .col-md-4 p {
+    font-family: "Poiret One";
+    font-size: 25px;
+    color: #F5F5F5;
+    text-align: center;
+}
