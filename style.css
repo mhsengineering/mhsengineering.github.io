@@ -1,0 +1,93 @@
+
+/*
+ * Navigation
+ */
+
+.navbar .nav {
+    list-style-type: none;
+    padding: 5px 0px 0px 10px;
+}
+
+.navbar li {
+    font-family: "Poiret One";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*
+ * Logo
+ */
+
+.logo img {
+    max-width: 100%;
+}
+
+/*
+ * Content
+ */
+
+body {
+    font-family: "Poiret One";
+}
+
+.home_top h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #EC583A;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+
+.home_top p {
+    padding: 10px 0px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 50px 50px;
+    color: #FF7148;
+}
+
+.infobox {
+    border: 1px solid #C7D0D5;
+    border-radius: 10px;
+    background-color: #93B1C6;
+    padding: 2px;
+    min-height: 330px;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.infobox h1 {
+    font-size: 30px;
+}
+.infobox p {
+    font-size: 25px;
+}
+
+/*
+ * index.html
+ */
+
+.contribute-link {
+    text-align: center;
+    color: black;
+    font-family: "Poiret One";
+}
+
+/*
+ * about.html
+ */
+
+.intro {
+    text-align: center;
+}
+.intro h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: #EC583A;
+}
+.intro p {
+    font-size: 30px;
+    padding: 10px 0px;
+    color: #FF7148;
+}
