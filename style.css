@@ -18,8 +18,15 @@
  * Logo
  */
 
+.logo {
+    text-align: center;
+}
 .logo img {
     max-width: 100%;
+}
+.logo-text {
+    font-size: 60px;
+    color: #EC583A;
 }
 
 /*
