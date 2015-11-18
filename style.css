@@ -91,3 +91,11 @@ body {
     padding: 10px 0px;
     color: #FF7148;
 }
+
+/*
+ * contact.html
+ */
+
+.contactinfo {
+    margin: 5px 50px;
+}
