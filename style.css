@@ -112,3 +112,10 @@ body {
   padding-top: 10px;
   text-align: left;
 }
+h2 {
+   font-size: 35px;
+    text-align: center;
+    color: #EC583A;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
