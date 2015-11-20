@@ -106,5 +106,9 @@ body {
 .contactinfo {
     margin: 5px 50px;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 23px;
+}
+#email{
+  padding-top: 10px;
+}
 }
