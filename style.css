@@ -105,4 +105,6 @@ body {
 
 .contactinfo {
     margin: 5px 50px;
+    text-align: left;
+    padding-left: 20px;
 }
