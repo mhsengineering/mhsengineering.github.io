@@ -105,10 +105,10 @@ body {
 
 .contactinfo {
     margin: 5px 50px;
-    text-align: left;
+    text-align: center;
     padding-left: 23px;
 }
 #email{
   padding-top: 10px;
-}
+  text-align: left;
 }
