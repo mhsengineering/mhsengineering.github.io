@@ -87,7 +87,7 @@ body {
  */
 
 .intro {
-    font-family: "Helvetica";
+    font-family: "Poiret One";
     text-align: center;
 }
 .intro h1 {
@@ -97,6 +97,7 @@ body {
     color: #EC583A;
 }
 .intro p {
+    font-family: "Helvetica";
     font-size: 24px;
     padding: 10px 0px;
     color: #FF7148;
