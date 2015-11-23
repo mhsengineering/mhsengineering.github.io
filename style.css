@@ -46,19 +46,21 @@ body {
 }
 
 .home_top p {
+    font-family: "Helvetica";
     padding: 10px 0px 0px 0px;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     padding: 0px 0px 50px 50px;
     color: #FF7148;
 }
 
 .infobox {
+    font-family: "Helvetica";
     border: 1px solid #C7D0D5;
     border-radius: 10px;
     background-color: #93B1C6;
-    padding: 2px;
-    min-height: 330px;
+    padding: 2px, 5px, 0px, 5px;
+    min-height: 300px;
     color: #F5F5F5;
     text-align: center;
 }
@@ -67,7 +69,7 @@ body {
     font-size: 30px;
 }
 .infobox p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 /*
@@ -77,7 +79,7 @@ body {
 .contribute-link {
     text-align: center;
     color: black;
-    font-family: "Poiret One";
+    font-family: "Helvetica";
 }
 
 /*
@@ -85,6 +87,7 @@ body {
  */
 
 .intro {
+    font-family: "Poiret One";
     text-align: center;
 }
 .intro h1 {
@@ -94,7 +97,8 @@ body {
     color: #EC583A;
 }
 .intro p {
-    font-size: 30px;
+    font-family: "Helvetica";
+    font-size: 24px;
     padding: 10px 0px;
     color: #FF7148;
 }
@@ -105,4 +109,17 @@ body {
 
 .contactinfo {
     margin: 5px 50px;
+    text-align: center;
+    padding-left: 23px;
+}
+#email{
+  padding-top: 10px;
+  text-align: left;
+}
+h2 {
+   font-size: 35px;
+    text-align: center;
+    color: #EC583A;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
 }
