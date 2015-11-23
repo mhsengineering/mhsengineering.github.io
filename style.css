@@ -34,7 +34,7 @@
  */
 
 body {
-    font-family: "Helvetica";
+    font-family: "Poiret One";
 }
 
 .home_top h1 {
@@ -46,6 +46,7 @@ body {
 }
 
 .home_top p {
+    font-family: "Helvetica";
     padding: 10px 0px 0px 0px;
     font-size: 30px;
     text-align: center;
@@ -54,6 +55,7 @@ body {
 }
 
 .infobox {
+    font-family: "Helvetica";
     border: 1px solid #C7D0D5;
     border-radius: 10px;
     background-color: #93B1C6;
