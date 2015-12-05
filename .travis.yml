@@ -6,5 +6,9 @@ install: gem install html-proofer
 
 script: htmlproof
 
+branches:
+  only:
+    - master
+
 notifications:
     email: false
