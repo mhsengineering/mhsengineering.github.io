@@ -28,40 +28,28 @@
 body {
     font-family: "Poiret One";
     color: black;
+    font-size: 24px;
+    text-align: center;
     background-color: #C7D0D5;
 }
 
 h1 {
     color: #EC583A;
     font-size: 50px;
-    text-align: center;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 24px;
-    text-align: center;
     padding-bottom: 20px;
 }
 
 .infobox {
     font-family: "Helvetica";
     color: #F5F5F5;
-    font-size: 24px;
-    text-align: center;
     padding: 2px 5px 0 5px;
     border: 1px solid #C7D0D5;
     border-radius: 10px;
     background-color: #93B1C6;
-    min-height: 300px;
-}
-
-.infobox .question {
-    font-size: 30px;
-}
-
-.infobox .answer {
-    font-size: 22px;
 }
 
 .enclosed-box {
@@ -70,9 +58,6 @@ h2 {
 
 .contribute-link {
     font-family: "Helvetica";
-    color: black;
-    font-size: 24px;
-    text-align: center;
     padding-top: 20px;
 }
 
@@ -84,12 +69,4 @@ h2 {
     text-align: left;
     padding-top: 10px;
     padding-left: 20px;
-}
-
-/*
- * News
- */
-
-.news {
-    font-size: 24px;
 }
