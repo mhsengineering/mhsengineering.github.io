@@ -74,6 +74,10 @@ h2 {
     font-size: 22px;
 }
 
+.enclosed-box {
+    margin: 0 50px;
+}
+
 .contribute-link {
     font-family: "Helvetica";
     color: black;
@@ -83,17 +87,13 @@ h2 {
 }
 
 /*
- * Contact info
+ * Emails
  */
-
-.contactinfo {
-    padding-left: 23px;
-    margin: 0 50px;
-}
 
 .email {
     text-align: left;
     padding-top: 10px;
+    padding-left: 20px;
 }
 
 /*
