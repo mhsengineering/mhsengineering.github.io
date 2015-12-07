@@ -27,6 +27,7 @@
 
 body {
     font-family: "Poiret One";
+    color: black;
     background-color: #C7D0D5;
 }
 
@@ -34,24 +35,13 @@ h1 {
     color: #EC583A;
     font-size: 50px;
     text-align: center;
-    padding-top: 10px;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-}
-
-.subtitle {
-    font-family: "Helvetica";
-    color: #FF7148;
     font-size: 24px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .infobox {
@@ -101,7 +91,5 @@ h2 {
  */
 
 .news {
-    color: black;
     font-size: 24px;
-    margin: 0 50px;
 }
