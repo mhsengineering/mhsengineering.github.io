@@ -32,31 +32,14 @@ clean as possible, so please keep in mind the following rules:
 
 ## How to test
 
-Testing will require you to run a server environment from your computer. This
-is actually really easy and, once set up, can be started in seconds. Below are
-some simple solutions to get you started.
+The easiest way to test is probably through the [Cloud9 IDE](https://c9.io/)
+as it works on Chromebooks as well.  Set up a new workspace and "clone" this
+repository, then `git checkout` the branch that you were working on.  Preview your
+work by selecting the "Preview" button near the top of the page.
+`git commit -am "Commit message here"` to commit your work, and then `git push` to
+update it on Github.  To update, `git pull`.
 
-Python provides an HTTP module that will run a simple HTTP server from the
-current directory. This is started differently depending on what version of
-python you're using.
-
-    $ python2 -m SimpleHTTPServer
-    Serving HTTP on 0.0.0.0 port 8000 ...
-    127.0.0.1 - - [20/Nov/2015 13:52:10] "GET / HTTP/1.1" 200 -
-    (^C to stop)
-    $ python3 -m http.server
-    Serving HTTP on 0.0.0.0 port 8000 ...
-    127.0.0.1 - - [20/Nov/2015 13:54:00] "GET / HTTP/1.1" 200 -
-    (^C to stop)
-
-If you don't have python, [devd](https://github.com/cortesi/devd) is
-a lightweight tool that also provides a simple HTTP server.
-
-    $ devd .
-    13:56:44: Listening on http://devd.io:8000 (127.0.0.1:8000)
-    13:57:00: GET /
-      <- 200 OK 2.8kB
-
-If you're on a device that can't support a test environment, options are
-available for remote environments. [Cloud9 IDE](https://c9.io/) provides an
-online Linux environment that works on most browsers (ex. Chromebooks).
+Alternatively, if you have the HTML and CSS files on your computer already, simply
+double-click the HTML file you want and reload it each time you make a change.  On
+a Chromebook downloading the files is as easy as making sure you're on the correct
+branch and then clicking the "Download ZIP" button on the right-hand side.
