@@ -4,7 +4,7 @@ dist: trusty
 
 install: gem install html-proofer
 
-script: htmlproof --check-html true
+script: htmlproof --check-html --check-favicon
 
 branches:
   only:
