@@ -4,8 +4,6 @@
 
 .navbar .nav {
     list-style-type: none;
-    padding-top: 5px;
-    padding-left: 10px;
 }
 
 .navbar li {
@@ -31,6 +29,7 @@ body {
     font-size: 24px;
     text-align: center;
     background-color: #C7D0D5;
+    margin: 8px;
 }
 
 h1 {
@@ -42,8 +41,11 @@ h2 {
     padding-bottom: 20px;
 }
 
-.infobox {
+p {
     font-family: "Helvetica";
+}
+
+.infobox {
     color: #F5F5F5;
     padding: 2px 5px 0 5px;
     border: 1px solid #C7D0D5;
