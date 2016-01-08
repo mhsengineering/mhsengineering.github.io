@@ -39,6 +39,7 @@ p {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .infobox {
