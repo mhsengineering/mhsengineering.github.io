@@ -37,6 +37,10 @@ p {
     font-family: "Helvetica";
 }
 
+.row {
+    display: flex;
+}
+
 .infobox {
     color: #F5F5F5;
     padding: 2px 5px 0 5px;
