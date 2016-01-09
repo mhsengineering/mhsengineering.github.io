@@ -1,32 +1,14 @@
-
 /*
  * Navigation
  */
 
 .navbar .nav {
     list-style-type: none;
-    padding: 5px 0px 0px 10px;
 }
 
 .navbar li {
-    font-family: "Poiret One";
     font-size: 20px;
-    font-weight: 700;
-}
-
-/*
- * Logo
- */
-
-.logo {
-    text-align: center;
-}
-.logo img {
-    max-width: 100%;
-}
-.logo-text {
-    font-size: 60px;
-    color: #EC583A;
+    font-weight: bold;
 }
 
 /*
@@ -35,91 +17,53 @@
 
 body {
     font-family: "Poiret One";
-}
-
-.home_top h1 {
-    font-size: 50px;
-    text-align: center;
-    color: #EC583A;
-    padding: 10px 0px 0px 0px;
-    font-weight: 700;
-}
-
-.home_top p {
-    font-family: "Helvetica";
-    padding: 10px 0px 0px 0px;
+    color: black;
     font-size: 24px;
     text-align: center;
-    padding: 0px 0px 50px 50px;
-    color: #FF7148;
+    background-color: #C7D0D5;
+    margin: 8px;
+}
+
+h1 {
+    color: #EC583A;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: "Helvetica";
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .infobox {
-    font-family: "Helvetica";
+    color: #F5F5F5;
+    padding: 2px 5px 0 5px;
     border: 1px solid #C7D0D5;
     border-radius: 10px;
     background-color: #93B1C6;
-    padding: 2px, 5px, 0px, 5px;
-    min-height: 300px;
-    color: #F5F5F5;
-    text-align: center;
 }
 
-.infobox h1 {
-    font-size: 30px;
+.enclosed-box {
+    margin: 0 50px;
 }
-.infobox p {
-    font-size: 22px;
-}
-
-/*
- * index.html
- */
 
 .contribute-link {
-    text-align: center;
-    color: black;
-    font-family: "Helvetica";
+    padding-top: 20px;
 }
 
 /*
- * about.html
+ * Emails
  */
 
-.intro {
-    font-family: "Poiret One";
-    text-align: center;
-}
-.intro h1 {
-    font-size: 50px;
-    font-weight: 700;
-    padding: 10px 0px;
-    color: #EC583A;
-}
-.intro p {
-    font-family: "Helvetica";
-    font-size: 24px;
-    padding: 10px 0px;
-    color: #FF7148;
-}
-
-/*
- * contact.html
- */
-
-.contactinfo {
-    margin: 5px 50px;
-    text-align: center;
-    padding-left: 23px;
-}
-#email{
-  padding-top: 10px;
-  text-align: left;
-}
-h2 {
-   font-size: 35px;
-    text-align: center;
-    color: #EC583A;
-    padding: 10px 0px 0px 0px;
-    font-weight: 700;
+.email {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
 }
