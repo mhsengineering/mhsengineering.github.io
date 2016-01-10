@@ -67,3 +67,14 @@ p {
     padding-top: 10px;
     padding-left: 20px;
 }
+
+/*
+ * News
+ */
+
+.post {
+    margin-bottom: 12px;
+}
+.post-title {
+    font-size: 30px;
+}
