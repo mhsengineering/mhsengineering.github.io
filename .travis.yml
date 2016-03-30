@@ -1,5 +1,5 @@
 language: ruby
-sudo: false
+sudo: true
 dist: trusty
 
 install: gem install html-proofer
