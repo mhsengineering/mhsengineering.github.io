@@ -1,10 +1,10 @@
 language: ruby
-sudo: false
+sudo: true
 dist: trusty
 
 install: gem install html-proofer
 
-script: htmlproof --check-html --check-favicon
+script: htmlproofer --check-html --disable-external --enforce-https --check-favicon
 
 branches:
   only:
