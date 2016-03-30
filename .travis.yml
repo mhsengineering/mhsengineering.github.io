@@ -4,7 +4,7 @@ dist: trusty
 
 install: gem install html-proofer
 
-script: htmlproofer --check-html --check-favicon --url-ignore cdn.mhsengineering.club
+script: htmlproofer --check-html --check-favicon --url-ignore https://cdn.mhsengineering.club
 
 branches:
   only:
