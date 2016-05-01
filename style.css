@@ -49,6 +49,10 @@ p {
     border-radius: 10px;
     background-color: #93B1C6;
 }
+.infobox img {
+    width: 60%;
+    margin: 20px 0px;
+}
 
 .enclosed-box {
     margin: 0 50px;
